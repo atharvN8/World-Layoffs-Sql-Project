@@ -16,6 +16,7 @@ This SQL project focuses on data cleaning and preparation, transforming raw, pot
 ## DataSet
 
 The data for this project is sourced from the Kaggle dataset:
+
 DataLink :[Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
 
