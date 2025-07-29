@@ -1,0 +1,18 @@
+1. Remove Duplicates
+
+	First let's check for duplicates 
+	We need to really look at every single row to be accurate        
+	creating  CTE with row_num column bacause we want to delete row  where the number is > 1 
+	now we can delete dulicate record's where row_num>1
+
+2. Standardize Data
+	removing space or unwanted character from rows
+	Updating same name for same catagory 
+	fromating Date column into proper format 
+	assigning same value for null or blank data belongs to same catagory  
+
+3. Look at Null orBlank Values
+	in total_laid_off and percentage_laid_off colums has lot's of null values so, we have to delete it  
+
+4. remove any columns and rows we need to
+	now have delete row_num column which we don't needed
