@@ -22,7 +22,7 @@ DataLink :[Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
 ## Cleaning Procedure
 
-1. check for duplicates and remove any
+## 1. check for duplicates and remove any
  
 	SELECT   *
 	FROM    layoffs;
@@ -96,7 +96,7 @@ DataLink :[Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 	
 	
 
-2. standardize data and fix errors
+## 2. standardize data and fix errors
 
 	SELECT	COMPANY,(TRIM(company))
 	FROM	layoffs_staging2;
@@ -163,7 +163,7 @@ DataLink :[Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 	
 	
 
-3. Look at null values and blank values
+## 3. Look at null values and blank values
 
 	SELECT	l1.industry,l2.industry
 	FROM	layoffs_staging2	l1
@@ -201,7 +201,7 @@ DataLink :[Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 	
 	
 	
- 4. remove any columns and rows that are not necessary
+ ## 4. remove any columns and rows that are not necessary
  
 	ALTER TABLE layoffs_staging2
 	DROP COLUMN row_num;
