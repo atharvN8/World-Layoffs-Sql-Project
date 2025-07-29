@@ -1,1 +1,1 @@
-# World-Layoffs-Sql-Project
+# World-Layoffs-Data Analysis using SQL
